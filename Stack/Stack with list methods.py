@@ -3,7 +3,7 @@ class Stack:
         self.items = []
 
     #Return True if the Stack is empty
-    def empty(self):
+    def is_empty(self):
         return len(self.items) == 0
     
     #Adds a value to the Stack
